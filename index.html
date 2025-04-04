@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio pessoal de desenvolvimento web com projetos, habilidades e informações de contato"
+    />
+    <meta name="theme-color" content="#00f5ff" />
+    <title>Portfólio | Henrique Vieira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="grid-overlay"></div>
+
+    <header>
+      <div class="container">
+        <a href="#contato" style="text-decoration: none"
+          ><h1>< Henrique.dev /></h1></a
+        >
+        <button class="menu-mobile-btn" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul>
+            <li>
+              <a href="#sobre"><i class="fas fa-user-alt"></i> Sobre</a>
+            </li>
+            <li>
+              <a href="#projetos"><i class="fas fa-code"></i> Projetos</a>
+            </li>
+            <li>
+              <a href="#habilidades"
+                ><i class="fas fa-laptop-code"></i> Habilidades</a
+              >
+            </li>
+            <li>
+              <a href="#contato"><i class="fas fa-paper-plane"></i> Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="banner">
+      <div class="container">
+        <div class="banner-text">
+          <h2>Olá, eu sou <span class="destaque">Henrique Vieira</span></h2>
+          <h3>Desenvolvedor Front-End & Back-End</h3>
+          <div class="tech-icons">
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <i class="fab fa-react" title="React"></i>
+            <i class="fab fa-node-js" title="Node.js"></i>
+            <i class="fab fa-python" title="Python"></i>
+            <i class="fab fa-git-alt" title="Git"></i>
+            <i class="fab fa-github" title="GitHub"></i>
+          </div>
+          <p>
+            Transformando ideias em código e criando experiências digitais
+            memoráveis.
+          </p>
+          <div class="banner-btns">
+            <a href="#contato" class="btn">Fale Comigo</a>
+            <a href="#projetos" class="btn btn-outline">Ver Projetos</a>
+          </div>
+        </div>
+      </div>
+      <div class="tech-elements">
+        <span class="tech-tag">&lt;html&gt;</span>
+        <span class="tech-tag">&lt;body&gt;</span>
+        <span class="tech-tag">&lt;div&gt;</span>
+        <span class="tech-tag">&lt;span&gt;</span>
+        <span class="tech-tag">&lt;/span&gt;</span>
+        <span class="tech-tag">&lt;/div&gt;</span>
+        <span class="tech-tag">&lt;/body&gt;</span>
+        <span class="tech-tag">&lt;/html&gt;</span>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="sobre-conteudo">
+          <div class="sobre-texto">
+            <p>
+              Desenvolvedor Front-End & Back-End em formação, apaixonado por
+              tecnologia. Com sólida base em JavaScript, Python, HTML, CSS e
+              TypeScript, e aprimorando minhas habilidades em SQL, Node.js e
+              React.
+            </p>
+            <p>
+              Meu objetivo é desenvolver aplicações web que não apenas atendam
+              às necessidades dos usuários, mas também proporcionem uma
+              experiência agradável e intuitiva.
+            </p>
+            <a href="curriculo-henrique-vieira.pdf" class="btn" download>
+              Download CV <i class="fas fa-download"></i>
+            </a>
+          </div>
+          <div class="sobre-imagem">
+            <img src="foto-henrique.jpg" alt="Foto de Henrique Vieira" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <div class="projetos-grid">
+          <div class="projeto-card">
+            <div class="tech-badge">HTML / CSS / JS</div>
+            <img src="superMarioProjeto.jpg" alt="Projeto Mario" />
+            <h3>Projeto Mario</h3>
+            <p>
+              Projeto baseado no jogo Super Mario Bros utilizando HTML, CSS e
+              JavaScript para criar uma experiência interativa.
+            </p>
+            <div class="projeto-links">
+              <a
+                href="https://projeto-mario-delta.vercel.app/"
+                target="_blank"
+                class="btn-small"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="projeto-card">
+            <div class="tech-badge">JavaScript</div>
+            <img src="jogoDaVelha.jpeg" alt="Jogo da Velha" />
+            <h3>Jogo da Velha</h3>
+            <p>
+              Aplicação clássica do jogo da velha desenvolvida com JavaScript
+              para demonstrar lógica de programação e manipulação do DOM.
+            </p>
+            <div class="projeto-links">
+              <a
+                href="https://jogo-da-velha-lac-seven.vercel.app/"
+                target="_blank"
+                class="btn-small"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+          <div class="projeto-card">
+            <div class="tech-badge">HTML / CSS / JS</div>
+            <img src="pokedevs.jpg" alt="Projeto Poke-Devs" />
+            <h3>Poke-Devs</h3>
+            <p>
+              Projeto criado com HTML, CSS e JavaScript que apresenta uma
+              coleção de personagens inspirados em Pokémon com características
+              de desenvolvedores, cada um com habilidades e personalidades
+              únicas.
+            </p>
+            <div class="projeto-links">
+              <a
+                href="https://poke-devs-six.vercel.app/"
+                target="_blank"
+                class="btn-small"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Novo Card Dream Team -->
+          <div class="projeto-card">
+            <div class="tech-badge">JavaScript / CSS / HTML</div>
+            <img src="DreamTeam.jpg" alt="Projeto Dream Team" />
+            <h3>Dream Team - 2024</h3>
+            <p>
+              Aplicação interativa construída principalmente com JavaScript e
+              CSS que permite aos usuários pesquisar por jogadores de basquete
+              presentes no time campeão das Olimpiadas de 2024 utilizando dados
+              estruturados e uma interface visual moderna.
+            </p>
+            <div class="projeto-links">
+              <a
+                href="https://dream-team-chi.vercel.app/"
+                target="_blank"
+                class="btn-small"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="habilidades-container">
+          <div class="habilidade">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Design Responsivo</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fab fa-react"></i>
+            <h3>React</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 65%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fab fa-node-js"></i>
+            <h3>Node.js</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fas fa-database"></i>
+            <h3>SQL</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="habilidade">
+            <i class="fab fa-js"></i>
+            <h3>TypeScript</h3>
+            <div class="progresso">
+              <div class="barra" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <div class="contato-container">
+          <div class="contato-info">
+            <div class="contato-item">
+              <i class="fas fa-envelope"></i>
+              <p>henriquemkpessoal@outlook.com</p>
+            </div>
+            <div class="contato-item">
+              <i class="fas fa-phone"></i>
+              <p>(11) 94769-7167</p>
+            </div>
+            <div class="contato-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>São Paulo, SP</p>
+            </div>
+            <div class="redes-sociais">
+              <a href="https://github.com/henriquevieiragt" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/henrique-vieira-7652891a9/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/imhenriquevieira/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <form id="contato-form">
+            <div class="form-grupo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required />
+            </div>
+            <div class="form-grupo">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-grupo">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">
+              Enviar Mensagem <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Henrique Vieira | Desenvolvedor Front-End & Back-End</p>
+      </div>
+    </footer>
+  </body>
+</html>
